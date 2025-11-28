@@ -116,6 +116,9 @@ importers:
       input-otp:
         specifier: 1.4.1
         version: 1.4.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      lucide:
+        specifier: ^0.555.0
+        version: 0.555.0
       lucide-react:
         specifier: ^0.454.0
         version: 0.454.0(react@19.2.0)
@@ -1480,6 +1483,9 @@ packages:
     resolution: {integrity: sha512-hw7zMDwykCLnEzgncEEjHeA6+45aeEzRYuKHuyRSOPkhko+J3ySGjGIzu+mmMfDFG1vazHepMaYFYHbTFAZAAQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+
+  lucide@0.555.0:
+    resolution: {integrity: sha512-R7BkO2/XRpMADcMIRn1UOZOvirxr2Z6s/R82k0EUK71ZXXrlRbvkVwTAIf+9DRApeyH+zNMIGfiUdmrOhoAygQ==}
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
@@ -2943,6 +2949,8 @@ snapshots:
   lucide-react@0.454.0(react@19.2.0):
     dependencies:
       react: 19.2.0
+
+  lucide@0.555.0: {}
 
   magic-string@0.30.21:
     dependencies:

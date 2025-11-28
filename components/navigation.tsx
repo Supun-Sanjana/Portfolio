@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react"
 import { useScrollspy } from "@/hooks/use-scrollspy"
+import { Moon, Sun } from 'lucide-react';
+
 
 export default function Navigation({ onToggleDarkMode, isDark }: { onToggleDarkMode: () => void; isDark: boolean }) {
   const [isSticky, setIsSticky] = useState(false)
@@ -46,7 +48,7 @@ export default function Navigation({ onToggleDarkMode, isDark }: { onToggleDarkM
           onClick={() => scrollToSection("home")}
           className="text-xl font-bold bg-gradient-to-r from-accent to-accent/70 bg-clip-text text-transparent hover:from-accent hover:to-accent transition-all"
         >
-          Supun
+          Supun.
         </button>
 
         <div className="hidden md:flex gap-1 items-center">
@@ -68,17 +70,9 @@ export default function Navigation({ onToggleDarkMode, isDark }: { onToggleDarkM
             aria-label="Toggle dark mode"
           >
             {isDark ? (
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-              </svg>
+              <Sun />
             ) : (
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.536l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.828-2.828l.707-.707a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414zm.464-4.536l.707-.707a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414zm-2.828 2.828l.707.707a1 1 0 11-1.414 1.414l-.707-.707a1 1 0 111.414-1.414zM3 11a1 1 0 100-2H2a1 1 0 000 2h1zm14 0a1 1 0 100-2h-1a1 1 0 000 2h1zm-9-8a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm0 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm6.556-2.464a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5.464 5.464a1 1 0 001.414-1.414L6.171 3.343A1 1 0 004.757 4.757l.707.707z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <Moon />
             )}
           </button>
         </div>
