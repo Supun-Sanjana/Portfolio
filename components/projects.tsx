@@ -16,61 +16,44 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "SmartPOS",
+    title: "Luxesphere",
     description:
       "Web-based supermarket POS system with AI-assisted inventory suggestions and real-time sales tracking.",
-    tech: ["React", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"],
-    liveUrl: "#",
-    githubUrl: "#",
-    image: "/supermarket-pos-system-dashboard-with-payment-term.jpg",
+    tech: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS"],
+    liveUrl: "https://luxesphere.vercel.app/",
+    githubUrl: "https://github.com/Supun-Sanjana/Hotel-management-Frontend.git",
+    image: "/lux.png",
   },
   {
     id: 2,
-    title: "EduManage",
+    title: "Client Sync",
     description:
       "Comprehensive student and instructor management dashboard for Android and web platforms with analytics.",
-    tech: ["React Native", "React", "Express", "MongoDB", "Firebase"],
-    liveUrl: "#",
-    githubUrl: "#",
-    image: "/education-management-dashboard-interface.jpg",
+    tech: ["React", "Express", "MySQL", "Node js", "Tailwind CSS"],
+    liveUrl: "https://client-sync-sig.vercel.app/",
+    githubUrl: "https://github.com/Supun-Sanjana/ClientSync-Frontend.git",
+    image: "/crm.png",
   },
   {
     id: 3,
-    title: "KinderLibrary",
+    title: "Zenleaf",
     description:
       "Library management tool focused on children's reading habits with progress tracking and recommendations.",
-    tech: ["Next.js", "Prisma", "MySQL", "Tailwind CSS", "TypeScript"],
-    liveUrl: "#",
-    githubUrl: "#",
-    image: "/children-library-management-app-with-books.jpg",
+    tech: ["PHP", "Tailwind CSS", "MySQL"],
+    liveUrl: "https://zenleaf.nvtibaddegama.site/",
+    githubUrl: "https://github.com/Supun-Sanjana/Zenleaf.git",
+    image: "/zenleaf.png",
   },
   {
     id: 4,
-    title: "TaskFlow",
+    title: "Portfolio",
     description: "Real-time collaborative task management application with team workspaces and activity tracking.",
-    tech: ["React", "Node.js", "WebSocket", "PostgreSQL", "Redis"],
+    tech: ["React","Tailwind CSS", "TypeScript", "Vercel v0" ],
     liveUrl: "#",
     githubUrl: "#",
-    image: "/task-management-collaboration-tool-dashboard.jpg",
+    image: "/port.png",
   },
-  {
-    id: 5,
-    title: "AnalyticsPro",
-    description: "Data visualization dashboard for analytics with customizable reports and export capabilities.",
-    tech: ["Next.js", "Recharts", "TypeScript", "Tailwind CSS", "API Integration"],
-    liveUrl: "#",
-    githubUrl: "#",
-    image: "/analytics-dashboard.png",
-  },
-  {
-    id: 6,
-    title: "DesignSystem",
-    description: "Open-source UI component library with comprehensive documentation and accessibility features.",
-    tech: ["React", "Storybook", "Tailwind CSS", "TypeScript", "Jest"],
-    liveUrl: "#",
-    githubUrl: "#",
-    image: "/ui-component-library-design-system-showcase.jpg",
-  },
+  
 ]
 
 export default function Projects() {
@@ -134,12 +117,14 @@ export default function Projects() {
                 <div className="flex gap-3 pt-6 border-t border-border mt-6">
                   <a
                     href={project.liveUrl}
+                    target="_blank"
                     className="flex-1 px-4 py-2 bg-accent text-accent-foreground rounded-lg text-sm font-semibold text-center hover:opacity-90 transition-opacity"
                   >
                     Live Demo
                   </a>
                   <a
                     href={project.githubUrl}
+                    target="_blank"
                     className="flex-1 px-4 py-2 border border-accent text-accent rounded-lg text-sm font-semibold text-center hover:bg-accent/10 transition-colors"
                   >
                     GitHub
