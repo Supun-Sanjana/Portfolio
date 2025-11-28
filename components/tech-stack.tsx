@@ -37,6 +37,16 @@ const techCategories: TechCategory[] = [
     icon: "✨",
     technologies: ["Figma", "Framer", "Adobe XD"],
   },
+  {
+    name: "Deployment Tools",
+    icon: "🚀",
+    technologies: ["Vercel", "Render", "Neon"],
+  },
+  {
+    name: "Languages",
+    icon: "💻",
+    technologies: ["Java", "JavaScript", "C#"],
+  },
 ]
 
 export default function TechStack() {
