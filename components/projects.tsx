@@ -49,8 +49,8 @@ const projects: Project[] = [
     title: "Portfolio",
     description: "Real-time collaborative task management application with team workspaces and activity tracking.",
     tech: ["React","Tailwind CSS", "TypeScript", "Vercel v0" ],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://sanjana-supun.vercel.app/",
+    githubUrl: "https://github.com/Supun-Sanjana/Portfolio.git",
     image: "/port.png",
   },
   
