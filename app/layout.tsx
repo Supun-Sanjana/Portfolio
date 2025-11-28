@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Supun - Full Stack Developer & UI Designer",
+  title: "Supun - Full Stack Developer",
   description:
     "Portfolio of Supun, a full-stack web developer and UI designer specializing in clean, performant web applications.",
   keywords: "full-stack developer, UI designer, web development, React, Next.js",

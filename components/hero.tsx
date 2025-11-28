@@ -50,7 +50,13 @@ export default function Hero() {
 
       {/* Greeting */}
       <div className="text-sm sm:text-base font-medium text-accent animate-fade-in-up animation-delay-1">
-        👋 Hi, I'm Supun
+        <h2 className="text-[30px]">
+        👋 
+        
+        Hi, I'm Supun
+
+        
+        </h2>
       </div>
 
       {/* Main heading with typing animation */}
