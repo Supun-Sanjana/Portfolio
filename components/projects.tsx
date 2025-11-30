@@ -18,7 +18,7 @@ const projects: Project[] = [
     id: 1,
     title: "Luxesphere",
     description:
-      "Web-based supermarket POS system with AI-assisted inventory suggestions and real-time sales tracking.",
+      "A complete MERN-based hotel management platform built to manage bookings, customers, rooms, and staff operations in one clean dashboard",
     tech: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS"],
     liveUrl: "https://luxesphere.vercel.app/",
     githubUrl: "https://github.com/Supun-Sanjana/Hotel-management-Frontend.git",
@@ -28,7 +28,7 @@ const projects: Project[] = [
     id: 2,
     title: "Client Sync",
     description:
-      "Comprehensive student and instructor management dashboard for Android and web platforms with analytics.",
+      "CRM (Customer Relationship Management) system designed to help businesses manage clients, projects, and internal operations in one organized dashboard.",
     tech: ["React", "Express", "MySQL", "Node js", "Tailwind CSS"],
     liveUrl: "https://client-sync-sig.vercel.app/",
     githubUrl: "https://github.com/Supun-Sanjana/ClientSync-Frontend.git",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     id: 3,
     title: "Zenleaf",
     description:
-      "Library management tool focused on children's reading habits with progress tracking and recommendations.",
+      "ZenLeaf is a fully custom eCommerce website I built using pure PHP and MySQL, designed specifically for selling bonsai plants and bonsai care accessories.",
     tech: ["PHP", "Tailwind CSS", "MySQL"],
     liveUrl: "https://zenleaf.nvtibaddegama.site/",
     githubUrl: "https://github.com/Supun-Sanjana/Zenleaf.git",
@@ -47,7 +47,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: "Portfolio",
-    description: "Real-time collaborative task management application with team workspaces and activity tracking.",
+    description: "This is the portfolio website you're currently on, built using Next.js and Vercel V0 for easy deployment.",
     tech: ["React","Tailwind CSS", "TypeScript", "Vercel v0" ],
     liveUrl: "https://sanjana-supun.vercel.app/",
     githubUrl: "https://github.com/Supun-Sanjana/Portfolio.git",
