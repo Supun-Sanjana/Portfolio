@@ -154,7 +154,7 @@ export default function Contact() {
           <div>
             <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">Resume</h3>
             <a
-              href="#"
+              href="./Sanjana_Supun_CV .pdf"
               className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
